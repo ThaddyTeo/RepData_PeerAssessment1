@@ -1,5 +1,7 @@
 # preparing the data for processing
 # upzip file and read the data file named : "activity.csv"
+## resend for repdata-010 (Jan 2015)
+
 unzip("repdata_data_activity.zip")
 origData = read.csv("activity.csv")
 # removal of the NAs in the original data.
